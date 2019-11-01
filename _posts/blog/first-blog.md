@@ -11,7 +11,7 @@ featured: true
 
 ## Test drive!
 
-This is a paragraph. I'm making it slightly long to go to the next line. The quick brown fox jumps over the lazy dog.
+First edit. This is a paragraph. I'm making it slightly long to go to the next line. The quick brown fox jumps over the lazy dog.
 
 List:
 
