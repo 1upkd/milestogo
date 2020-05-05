@@ -3,11 +3,10 @@ title: First blog
 date: 2019-09-23T05:45:15.727Z
 thumbnail: /media/uploads/contact.jpg
 tags:
-  - first
-  - blog
+  - reviews
 featured: true
 ---
-# Welcome to the first blog
+# Review #1
 
 ## Test drive!
 
