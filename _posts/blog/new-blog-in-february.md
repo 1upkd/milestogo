@@ -1,10 +1,10 @@
 ---
-title: New Blog in February
+title: Recipe Blog
 date: 2020-02-21T12:02:50.312Z
 thumbnail: /media/uploads/img_20200220_170423.jpg
 tags:
-  - review
-  - indian
+  - recipe
+  - south indian
 featured: true
 ---
-Sample Blog
+# Recipe
