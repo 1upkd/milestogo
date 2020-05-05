@@ -1,9 +1,9 @@
 ---
-title: Second blog
+title: Travel blog
 date: 2019-09-23T05:37:57.853Z
 thumbnail: /media/uploads/bg.jpg
 tags:
-  - wokay
+  - travel
 featured: false
 ---
 # Second blog
