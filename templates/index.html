@@ -61,29 +61,26 @@
   <input type="checkbox" id="menutoggle">
   <label for="menutoggle"></label>
   <nav>
-    <a href="https://wiosdesigns.xyz">WIOS Designs</a>
-    <a href="https://github.com/wiosdesigns/blogmaadi/">GitHub</a>
+    <a href="/post/about-me.html">About Me</a>
+    <a href="/tag/reviews.html">Reviews</a>
+    <a href="/tag/recipes.html">Recipes</a>
+    <a href="/tag/travel.html">Travel</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 <br><br>
 <section style="max-width: 100%; width: 100%;background: var(--dark); color: var(--lighter); text-align: center; padding-bottom: 10mm; border-radius: 0 0 50% 50%;">
-  <h1>BlogMaadi</h1>
-  <h3>A blog template for Netlify CMS</h3>
-  <a href="/tag/reviews.html">Reviews</a>
-  <a href="/tag/recipes.html">Recipes</a>
-  <a href="/tag/travel.html">Travel</a>
-  
+  <h1>MilesToGo</h1>
+  <h3>Blogs</h3>
 </section>
 <br>
 <br>
 <section style="background: var(--light); color: var(--dark); text-align: left; padding: 3mm; background-size: contain; background-position: center center;">
-  <h2>Browse by Tags</h2>
-  <p class="tags">
-    {% for tag in tags %}
-    <a href="/tag/{{tag}}.html">{{tag}}</a>
-    {% endfor %}
+  <p class="tags" style="text-align: center;">
+    <a href="/tag/reviews.html">Reviews</a>
+    <a href="/tag/recipes.html">Recipes</a>
+    <a href="/tag/travel.html">Travel</a>
   </p>
-  <br><br>
   
   <h2>Featured blogs</h2>
   {% for blog in blogs %}
@@ -100,6 +97,14 @@
     </p>
   </a>
   {% endfor%}
+  <br><br>
+  <h2>Browse by Tags</h2>
+  <p class="tags">
+    {% for tag in tags %}
+    <a href="/tag/{{tag}}.html">{{tag}}</a>
+    {% endfor %}
+  </p>
+  <br><br>
   
 </section>
 <br>
@@ -115,7 +120,11 @@
   }
 </script>
 
-<p style="margin: 0; background: var(--darker); text-align: center; padding: 5mm; color: var(--lighter);">
+<div id="contact" style="margin: 0; background: var(--darker); text-align: center; padding: 5mm; color: var(--lighter);">
+  <h2>Get in touch</h2>
+  <br>
+  <p>- links here -</p> 
+  <br><br>
   Powered by <a style="color: var(--lighter);" href="https://wiosdesigns.xyz" target="_blank">WIOS Designs</a>
-</p>
+</div>
 </body>

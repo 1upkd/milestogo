@@ -16,11 +16,14 @@
   font-family: font2;
   src: url(/media/mr.ttf);
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: font1;
   padding: 0px;
   margin: 0px;
-  font-size: 4mm;
+  font-size: 1rem;
   background: var(--light);
   color: var(--darker);
   text-align: center;

@@ -10,7 +10,7 @@
     .title{
       display: block;
       width: 100%;
-      background: url('{{blog.thumbnail}}');
+      background: url('/media/uploads/anise-aroma-art-bazaar-277253-1-.jpg');
       background-size: cover;
       padding: 30mm 5mm 0mm 5mm;
       font-size: 1rem;
@@ -84,49 +84,31 @@
 </header>
 <div class="title">
   <section>
-    <h1>{{blog.title}}</h1>
-    <h3>{{blog.date}}</h3>
+    <h1>About Me</h1>
+    <h3>15 May, 2020</h3>
     <p class="tags">
-      {% for tag in blog.tags %}
-      <a href="/tag/{{tag}}.html">{{tag}}</a>
-      {% endfor %}
+      
+      <a href="/tag/about.html">about</a>
+      
     </p>
-    {% if "reviews" in blog.tags %}
-    <p>
-      I’m sure you’re here to save some time from running through apps to
-      find a good place for your meals or spend quality time with your 
-      loved one. I will present to you exactly that. I might have reviewed 
-      and dined in a lot of restaurants. But here, you’ll find none of them 
-      which won't be worth your time and money. 
-    </p>
-    {% endif %}
-    {% if "recipes" in blog.tags %}
-    <p>
-      I’m not promising you it will be easy. Try anyway ;)  
-    </p>
-    {% endif %}
-    {% if "travel" in blog.tags %}
-    <p>
-      Starting with small steps...
-    </p>
-    {% endif %}
+    
+    
+    
 
   </section>
 </div>
 <section class="content">
-{{blog.html|safe}}
-{% if "reviews" in blog.tags %}
-<p>
-When you come across a restaurant worth mentioning here, ping me. 
-Always up for food talks and meets! 
-</p>
-{% endif %}
-{% if "recipes" in blog.tags %}
-<p>
-Share your cookbook with me!! (star eyes smiley) 
-And I could feature it here :o
-</p>
-{% endif %}
+<p>Greetings!</p>
+<p>I'm Divya, the one you'll hear from often.</p>
+<p>It hasn't been too long after discovering the foodie in me. But belonging to a family of chowhounds' good food has always been around, filling my tummy and enhancing my taste buds.</p>
+<p>As of now, I work full-time. A few weekends go by in reviewing restaurants and the others, trying my best to ride away from the city. It's always a bliss, you know!</p>
+<p>In this space, you will find my food and (sometimes) travel experiences. Having lived in Bengaluru for 23 years now, I'm sure to do some justice to your guests about restaurants and more.</p>
+<p>On the other hand, I would love to hear from you about your experiences (food and travel). Share your joy and tag me @_____ to add more flavors in my day.</p>
+<p>Subscribe. And my posts will reach your inbox in no time!</p>
+<p>Happy Sharing :)</p>
+
+
+
     
 </section>
 <div id="contact" style="margin: 0; background: var(--darker); text-align: center; padding: 5mm; color: var(--lighter);">
